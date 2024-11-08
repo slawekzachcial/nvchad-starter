@@ -18,6 +18,7 @@ return {
     opts = {
       ensure_installed = {
         "markdown",
+        -- "go",
         -- "vim", "lua", "vimdoc",
         --   "html", "css"
       },
