@@ -9,9 +9,9 @@ require "nvchad.options"
 -- vim.keymap.set('i', '<C-J>', 'copilot#Accept("<CR>")', { silent = true, expr = true, replace_keycodes = false })
 
 vim.opt.relativenumber = true
-vim.opt.colorcolumn = '80'
+vim.opt.colorcolumn = "80"
 vim.opt.cursorline = true
-vim.opt.cursorlineopt = 'both'
+vim.opt.cursorlineopt = "both"
 
 -- "format on save" managed by conform.nvim
 -- vim.api.nvim_create_autocmd({'BufWritePre'}, {
@@ -20,9 +20,6 @@ vim.opt.cursorlineopt = 'both'
 -- })
 
 vim.opt.list = true
-vim.opt.listchars = 'tab:→ ,trail:·,precedes:«,extends:»'
+vim.opt.listchars = "tab:→ ,trail:·,precedes:«,extends:»"
 
-vim.opt.spelllang = 'en_us'
-
--- Cycle between buffers
-vim.keymap.set('n', '<C-b>', ':edit #<cr>', { desc = 'Switch to previous buffer' })
+vim.opt.spelllang = "en_us"
